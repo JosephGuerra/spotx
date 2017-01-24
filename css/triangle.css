@@ -1,0 +1,39 @@
+/* 
+    Created on : Dec 12, 2016, 9:26:12 AM
+    Author     : JGuerra
+*/
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 200px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 400px solid #FFA500;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 100px solid transparent;
+  border-bottom: 8vh solid #FFA500;
+  z-index: 5;
+  border-left: 100vw solid #FFA500;
+  vertical-align: baseline;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  float: right;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent; 
+  border-right:100px solid #FFA500; 
+}

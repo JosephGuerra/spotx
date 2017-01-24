@@ -1,0 +1,195 @@
+/* 
+    Created on : Dec 7, 2016, 3:23:16 PM
+    Author     : JGuerra
+*/
+
+/***CAROUSEL***/
+.carousel-inner img {
+    margin: auto;
+}
+.carousel-inner {
+    overflow:visible;
+}
+.carousel {
+    margin: 0 10px 0 10px;
+}
+.carousel-caption {
+    left: 13%;
+    top: 14%;
+    width: 100%;
+}
+.carousel-caption > h3 {
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 22px;
+  line-height: 1;
+  position: relative;
+  bottom: 15%;  
+}
+.carousel-caption > h2 {
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 3.0em;
+    font-weight: bold;
+    line-height: 0.5;
+}
+.carousel-caption > h1 {
+  text-align: left;
+  font-family: "Oswald";
+  font-size: 8em;
+  font-weight: bold;
+  line-height: 1;
+  color: #FFA500;
+}
+.carousel-caption > hr.bigrow {
+    display: block;
+    height: 8px;
+    border: 0;
+    border-top: 4px solid white;
+    margin: 2% 0;
+    padding: 0;
+    text-align: left;
+    width: 15%;
+}
+@media only screen and (max-width : 520px) {
+    
+    /* Carousel Section (up to 520px) */
+    .carousel-caption > h3 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 8px;
+        line-height: 1;
+        position: relative;
+        bottom: 74px;
+    }
+    .carousel-caption {
+        width: 200px;
+        height: 106px;
+        left: 6%;
+        bottom: 90px;
+        top: -92px !important;
+        transform: translateY(-50%);
+        position: relative;
+    } 
+    .carousel-caption > h1 {
+        text-align: left;
+        font-family: "Oswald";
+        font-size: 2.5em;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: -2px;
+        color: #FFA500;
+        position: relative;
+        top: -32px;
+    }
+    .carousel-caption > hr.bigrow {
+        border-top: 3px solid white;
+        width: 35%;
+        position: relative;
+        top: -36px;
+    }
+    .carousel-caption > h2 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: .5;
+        position: relative;
+        top: -16px;
+    }     /****END Carousel Section (up to 520px) */
+}
+
+@media only screen and (min-width : 520px) and (max-width : 767px) {
+    
+    .carousel-caption {
+        left: 5%;
+        top: 18%; 
+    }
+    /* Section Carousel 520px - 767px */
+    .carousel-caption > hr.bigrow {
+        border: 0;
+        border-top: 3px solid white;
+        margin: 2em 0;
+        padding: 0;
+        width: 26%;
+        top: -21%;
+        position: relative;
+    } 
+    .carousel-caption > h1 {
+        text-align: left;
+        font-family: "Oswald";
+        font-size: 6em;
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 0px;
+        color: #FFA500;
+        position: relative;
+        top: -20%;
+    }
+    .carousel-caption > h2 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 3em;
+        font-weight: 600;
+        position: relative;
+        top: -14%;
+    }
+    .carousel-caption > h3 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 17px;
+        line-height: 1;
+        position: relative;
+        bottom: 38%;
+    }    
+    /***** Section Carousel 520px - 767px *****/
+}
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+    
+    .carousel-caption {
+        left: 6%;
+        top: 10%;
+    }
+
+    .carousel-caption > hr.bigrow {
+        display: block;
+        height: 8px;
+        border: 0;
+        border-top: 4px solid white;
+        margin: 1em 0;
+        padding: 0;
+        text-align: left;
+        width: 23%;
+    }
+    .carousel-caption > h3 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 22px;
+        line-height: 1;
+        position: relative;
+        bottom: 3%;
+    }     
+}
+
+@media only screen and (min-width : 1201px) {
+    
+    .carousel-caption {
+        left: 15%;
+        top: 13%;
+    }
+    .carousel-caption > h3 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 22px;
+        line-height: 1;
+        position: relative;
+        bottom: 3%;
+    }    
+    .carousel-caption > h2 {
+        text-align: left;
+        font-family: "Open Sans";
+        font-size: 4em;
+        font-weight: bold;
+        line-height: 0.5;
+    }   
+}

@@ -1,0 +1,388 @@
+/* 
+    Created on : Jan 20, 2017, 11:05:48 AM
+    Author     : JGuerra
+*/
+#support-items-container {
+    width: 76.5%;
+    margin-right: 0;
+    margin-left: 11.25%;
+}
+.support-included-item {
+    font-size: 10px;
+    position: relative;
+    left: -3px;
+}
+ #support-container {
+    margin-left: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index:50;    
+}
+div.support-included {
+    background-color: white;
+    margin-left: 20%;
+    width: 60%;
+}
+.firmware-img {
+    height: 51.85px;
+    width: 73.4px;
+    position: relative;
+    margin: 0 41%;
+}
+.support-img {
+    height: 51.85px;
+    width: 73.4px;
+    position: relative;
+    margin: 0 41%;
+}
+.support-included-item {
+    font-size:10px;
+}
+#support-spotx {
+    text-align: center;
+    margin: 20px 0 30px -10px;    
+}
+.support-spotx-container {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 30px;
+}
+div.support-included {
+    background-color: white;
+    margin-left: 10%;
+    width: 75%;
+}
+.datacable.pull-center {
+    position: relative;
+    left: 46px;
+    top: -28px;
+}
+.adapter.pull-right {
+    position: relative;
+    left: -113px;
+    top: 40px;
+    padding: 25px 0 42px 11px;
+}
+.black-underline {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid black;
+    margin: 1% 43% ;
+    padding: 0;
+    text-align: center;
+    width: 12%;
+}
+ #support-header {
+     color:black;
+     padding: 0 42% 10px;
+}
+ #support-included-hdr {
+     color:black;
+     text-align:center;
+     margin: 10px 0 20px 0;     
+}
+ .support-bg {
+     background-color:lightgray;
+ }
+
+
+@media only screen and (max-width: 520px) {
+    
+    .adapter.pull-right {
+        position: relative;
+        left: -4px;
+        top: -3px;
+        padding: 25px 0 42px 11px;
+    }
+    div.support-included {
+        margin-left: 13%;
+        width: 72%;
+    }   
+    #support-header {
+        color: black;
+        padding: 41px 12% 10px;
+    } 
+    .black-underline {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid black;
+        margin: 4% 43% 9% 24%;
+        padding: 0;
+        text-align: center;
+        width: 49%;
+    }    
+
+    .support-datacable {
+        position: relative;
+        right: 26%;
+        padding-top: 15px;        
+    }
+    .support-datacable-text {
+        position: absolute;
+        top: -6%;
+        left: -40px;
+    }    
+    .support-qsg {
+        padding: 10px 23%;
+    } 
+    h5.supportheader {
+        text-align: center;
+        padding-right: 45px;
+    }   
+    h5.supportfooter {
+        text-align: center;
+        padding-right: 67px;
+    }    
+    h5.support-item-hdr {
+        padding: 0 0 0 15px;
+    }    
+    h5.support-item-ftr {
+        padding: 0 0 0 8px;
+    }
+    .support-userguide {
+        padding: 10px 23%;
+    }    
+    span.support-included-item.support-strap {
+        padding: 1% 1% 0 18px;
+    }
+    img.support-strap {
+        position: relative;
+        margin: 10px 0px 60px 0px;
+    }
+    .carabiner {
+        position: relative;
+        margin: 0 10%;
+        width: 75%;
+    }  
+    .datacable {
+        position: relative;
+        margin: 0 10%;
+        width: 75%;
+    }  
+    .adapter {
+        position: relative;
+        margin: 0 15%;
+        width: 75%;
+    }      
+    .support-firmware {
+        margin: 0 -6%;
+    }    
+    .firmware-img {
+        height: 51.85px;
+        width: 73.4px;
+        position: relative;
+        margin: 0 34%;
+    }    
+    .support-img {
+        height: 51.85px;
+        width: 73.4px;
+        position: relative;
+        margin: 0 24%;
+    } 
+    #support-items-container {
+        width: 78.75%;
+        margin-left: 9.5%;
+    }    
+    
+}
+@media only screen and (min-width:768px) and (max-width: 990px) { 
+
+    .row.whitebg.container {
+        width: 92%;
+        margin-right: 0%;
+        margin-left: 4%;
+    }    
+    div.support-included {
+        background-color: white;
+        margin-left: 6%;
+        width: 88.5%;
+    }   
+    hr#black-underline-howtogetspotx {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid #000;
+        margin: 1em 0;
+        text-align: center;
+        width: 24%;
+        margin-left: 37%;
+    }
+    .support-included-item.support-datacable {
+        position: relative;
+        top: -115px;
+        left: -65px;
+        height: -3px;
+    }
+    .whitebg.adapter.pull-right {
+        width: 191px;
+        left: -106px;
+        padding: 0 9% 85px 0;
+    }  
+    .support-img {
+        height: 51.85px;
+        width: 73.4px;
+        position: relative;
+        margin: 0 12%;
+    }    
+    .support-firmware {
+        width: 23%;
+    }  
+    .support-support.support-text {
+        width: 21%;
+        position: relative;
+        right: 4%;
+    } 
+    .datacable.pull-center {
+        width: 216px;
+        left: 65px;
+    }  
+    .carabiner.pull-left {
+        padding: 0 0 29px 3px;
+        width: 202px;
+        left: 66px;
+    }    
+    #support-header {
+        color: black;
+        padding: 10px 0 2% 2%;
+    }
+    #support-underline {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid black;
+        margin: 1% 0 3% 40%;
+        padding: 0;
+        text-align: center;
+        width: 20%;
+    }   
+    
+}
+@media only screen and(min-width:990px) and (max-width: 1200px) {
+
+    .black-underline {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid black;
+        margin: 0 43% 3% 43%;
+        padding: 0;
+        text-align: center;
+        width: 12%;
+    }
+    #support-items-container {
+        width: 76.9%;
+        margin-right: 0;
+        margin-left: 9%;
+    }   
+    #support-header {
+        color: black;
+        padding: 0 0 0 39%;
+    }      
+}
+
+@media only screen and (min-width:1201px) {
+
+    #support-header {
+        color: black;
+        padding: 0 0 10px 0;
+    }  
+    .black-underline {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid black;
+        margin: 0 0 2% 45%;
+        padding: 0;
+        width: 10%;
+    }  
+    .whitebg.carabiner {
+        position: relative;
+        left: 12%;
+    }
+    #support-included-hdr {
+        color: black;
+        text-align: center;
+        padding: 6px 0 5% 2%;
+    }    
+    div.support-included {
+        background-color: white;
+        margin-left: 12%;
+        width: 75%;
+    }
+    .support-included-item {
+        font-size: 10px;
+        padding-left: 60px;
+    }   
+    #support-spotx {
+        text-align: center;
+        margin: 13px 0 20px 0;
+    }
+    .support-firmware {
+        height: 53px;
+        width: 203px;
+        position: relative;
+        left: 43px;        
+    }    
+    .support-support {
+        width: 156px;
+        height: 59px;
+        position: relative;
+        left: 145px;        
+    }
+    .support-img {
+        height: 51.85px;
+        width: 73.4px;
+        position: relative;
+        margin: 0 8%;
+    }  
+    img.support-walladapter {
+        position: relative;
+        left: 125px;
+    }    
+    span.support-included-item.support-walladapter {
+        position: relative;
+        top: -92px;
+        left: 270px;
+    }  
+    span.support-included-item.support-datacable-text {
+        position: relative;
+        top: -90px;
+        left: -103px;
+    }    
+    span.support-included-item.support-datacable {
+        position: relative;
+        top: -103px;
+        left: -105px;
+    }    
+    .datacable.pull-center {
+        position: relative;
+        left: 159px;
+        top: -31px;
+    }   
+    .whitebg.carabiner {
+        position: relative;
+        left: 171px;
+    }    
+    .adapter.pull-right {
+        position: relative;
+        left: -186px;
+        top: 0px;
+        padding: 25px 0 42px 11px;
+    }    
+    .support-text {
+        padding-bottom: 20px;
+    }   
+    .firmware-img {
+        height: 51.85px;
+        width: 73.4px;
+        position: relative;
+        margin: 0 14%;
+    }  
+    
+}
+
+
+

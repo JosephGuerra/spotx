@@ -1,0 +1,114 @@
+
+/*********************
+* Pricing & Coverage *
+**********************/
+#price-cover h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#price-cover h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+#price-cover h3 {
+	padding: 0 9%;
+	font-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+#price-cover a,
+#price-cover a:hover,
+#price-cover a:focus {
+	color: #00B5EF;
+	font-weight: 600;
+}
+#price-cover p {
+	float: left;
+	font-size: 11px;
+	font-weight: 500;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+#price-cover .row {
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 0;
+  border: 3px solid #FFF;
+/*   -webkit-transition: 0.3s;
+  transition: 0.3s; */
+}
+.plan {
+	background-color: #F3F3F4;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.plan .header {
+	padding: 5px 0;
+	border-top: none;
+  background-color: #111;
+  color: white;
+  font-family: Oswald, 'Sans Serif';
+  font-size: 16px;
+  font-weight: 400;
+}
+.plan .service-fee {
+  background-color: #58585A;
+  color: #fff;
+  border-top: 2px solid #FFF;
+}
+.plan li {
+  border-top: 1px solid #DDD;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+}
+.price {
+	padding-bottom: 5px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+}
+/* PLAN ON HOVER */
+.column:hover {
+	margin-top: -6px;
+  border: none;
+  border: 1px solid #000;
+}
+.prev-column-hover {
+	border-right:none;
+	border-bottom:none;
+}
+.column:hover + .column {
+	border-bottom:none;
+  border-left:none;
+}
+.column:hover .plan {
+  background-color: #FFF;
+
+}
+.column:hover li {
+	padding: 6px 0;
+}
+.column:hover li:first-child {
+	margin: 0 -1px;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+.column:hover .service-fee {
+  background-color: #FFA500;
+}
+
+/*@media only screen and (max-width: 520px) {*/
+    #servicecoverage-header-headercopy {
+        margin: 0 7% 4% 8%;
+    }    
+/*}*/
+

@@ -1,0 +1,766 @@
+/* 
+    Created on : Dec 14, 2016, 2:48:10 PM
+    Author     : JGuerra
+*/
+section#spotxunique {
+    width:90%;    
+}
+.underline-inverse {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid white;
+    margin: 1% 43% ;
+    padding: 0;
+    text-align: center;
+    width: 12%;
+}
+ #spotxunique-header {
+    color:white;
+    margin-top: 18px;     
+}
+ #spotxunique-container {
+    position: relative;
+    margin-left: auto;
+    top: 0;
+    left: 0;
+    display:inline;
+
+}
+img#spotxunique-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    margin-left: 28%;
+    margin-right: 25%;
+    display:inline;
+}
+
+.circle {
+    position: absolute;
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    z-index: 10;
+    -webkit-box-shadow: 0 0 5px 5px #FFA500; 
+    -moz-box-shadow: 0 0 5px 5px #FFA500; 
+    box-shadow: 0 0 5px 5px  #FFA500;  
+    cursor:pointer;
+    display:inline;
+}
+div#chipantenna {
+    top: 5vh;
+    left: 88vh;
+}
+div#chipantenna > svg {
+    position: absolute;
+    left: 50%;
+    bottom: -188%;
+}
+.isHidden {
+    display:none;
+    opacity:0;
+    visibility:hidden;
+}
+div#chipantenna-text {
+    position: absolute;
+    top: -357%;
+    left: -10%;
+    padding-left: 7vw;
+    width: 250px;
+}
+div#impactresistant {
+    top: 18%;
+    left: 69%;
+}
+div#impactresistant > svg {
+    position:absolute;
+    top: -133%;
+    left: 69%;
+}
+#svgimpactresistant {
+    top: 16%;
+    left: 69%;
+}
+div#impactresistant-text {
+    position: absolute;
+    top: 18%;
+    left: 69%;
+    padding-left: 6vw;
+    width: 260px;
+    float: right;
+}
+div#rechargeable {
+    top: 28%;
+    left: 60%;
+}
+div#rechargeable > svg {
+    position:absolute;
+    top: 28%;
+    left: 60%;
+}
+div#rechargeable-text {
+    position: absolute;
+    top: 4vh;
+    left: 26vh;
+    width: 150px;
+}
+div#rechargeable-text > h6 {
+    font-size: 15px;
+}
+div#hours360 {
+    top: 53%;
+    left: 51%;
+}
+div#hours360 > svg {
+    position:absolute;
+    top: -8px;
+    left: -8px;
+}
+div#hours360-text {
+    position: absolute;
+    top: 29vh;
+    left: 12vh;
+    width: 220px;
+}
+div#hours360-text > img > h6 {
+    line-height: 1;
+}
+div#audionotify {
+    top: 52%;
+    left: 59%;
+}
+div#audionotify-text {
+    top: 4vh;
+    left: 25vh;
+    position: absolute;
+    width: 200px;
+}
+div#usbport {
+    top: 96%;
+    left: 41%;
+}
+div#usbport > svg {
+    bottom: -38px;
+    left: -180px;
+    position: absolute;
+}
+div#usbport-text {
+    position: absolute;
+    bottom: -6vh;
+    right: 11vh;
+    width: 150px;
+}
+div#qwerty {
+    top: 71%;
+    left: 33%;
+}
+div#qwerty > svg {
+    position: absolute;
+    bottom: -40px;
+    left: -180px;
+}
+div#qwerty-text {
+    position: absolute;
+    top: 4vh;
+    left: -25vh;
+}
+div#hours240 {
+    top: 55%;
+    left: 31%;
+}
+div#hours240 > svg{
+    position: absolute;
+    bottom: -11px;
+    left: -171px;
+}
+div#hours240-text {
+    position: absolute;
+    top: -1vh;
+    left: -28vh;
+}
+div#thin {
+    top: 28%;
+    left: 29%;
+}
+div#thin > svg {
+    position:absolute;
+    top: -29px;
+    left: -163px;
+}
+div#thin-text {
+    position: absolute;
+    top: -61px;
+    left: -121px;
+   
+}
+div#backlitdisplay {
+    top: 18%;
+    left: 33%;
+}
+div#backlitdisplay > svg {
+    position:absolute;
+    top: -27px;
+    left: -177px;
+}
+div#backlitdisplay-text {
+    position: absolute;
+    top: -10vh;
+    left: -26vh;
+     
+}
+.spotxfeature {
+    color:white;
+    font-size: 13px;
+    line-height: 1;
+    position:absolute;
+}
+#chipantenna-mobile {
+    color: white;
+    font-size: 13px;
+    line-height: 1;
+    position: absolute;
+    left: 95px;
+    bottom: 58px;
+}
+
+@media only screen and (max-width : 520px) {
+    
+    #spotxunique-underline {
+        height: 5px;
+        border-top: 5px solid white;
+        margin: 0% 0% 6% 20%;
+        width: 59%;
+    }   
+    #spotxunique-header {
+        color: white;
+        font-family: oswald;
+        width: 75%;
+        margin: 15px 0% 0 12%;
+    }
+    img#spotxunique-img {
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left: -1%;
+        margin-right: 25%;
+        display: inline;
+    }    
+    div#chipantenna {
+        top: 19px;
+        left: 194px;
+    }  
+    div#impactresistant {
+        top: 20%;
+        left: 82%;
+    }    
+    div#rechargeable {
+        top: 43%;
+        left: 75%;
+    }
+    div#audionotify {
+        top: 63%;
+        left: 67%;
+    }
+    div#usbport {
+        top: 96%;
+        left: 30%;
+    }
+    div#qwerty {
+        top: 72%;
+        left: 13%;
+    }
+    div#hours240 {
+        top: 55%;
+        left: 10%;
+    }
+    div#thin {
+        top: 28%;
+        left: 7%;
+    }
+    div#backlitdisplay {
+        top: 18%;
+        left: 16%;
+    }  
+    div#rechargeable-mobile-image {
+        position: absolute;
+        left: 23%;
+        top: 23%;
+    }   
+    div#rechargeable-mobile-text {
+        position: relative;
+        left: 31%;
+        padding: 10% 10px 0 10px;
+        line-height: .5;        
+    }  
+    div#audionotify-mobile {
+        padding: 10% 18%;
+    }   
+    div#hours360-mobile-image {
+        padding: 25px 0 0 91px;
+    }
+    div#hours360-mobile-text {
+        position: absolute;
+        left: 136px;
+        bottom: -9px;
+        width: 200px;
+    }
+    div#usbport-mobile {
+        padding: 20px 25%;
+    }
+    div#qwerty-mobile-image {
+        padding: 30px 83px;
+    }    
+    div#qwerty-mobile-text {
+        position: absolute;
+        left: 64%;
+        bottom: 28px;
+    }    
+    div#hours240-mobile {
+        padding: 20px 19%;
+    }
+    div#thin-mobile {
+        padding: 8% 19%;
+    }    
+    div#backlitdisplay-mobile {
+        padding: 11% 59px;
+    }  
+    
+}
+
+@media only screen and (max-width: 520px) {
+    div#inthenews-header {
+        position: relative;
+        margin: 0 0 15px 0;
+    }  
+    div#servicecoverage-header {
+        margin: 0 0 18px 0;
+    }     
+}
+
+@media only screen and (min-width : 520px) and (max-width : 767px) {
+    
+    #spotxunique-header {
+        width: 100%;
+    }
+    img#spotxunique-img {
+        position: relative;
+        margin: 2% 0% 0 6%;
+    }
+    div#chipantenna {
+        top: 31px;
+        left: 367px;
+    }
+    div#impactresistant {
+        top: 36%;
+        left: 78%;
+    }  
+    div#hours360 > svg {
+        position: absolute;
+        top: -41%;
+        left: -54%;
+    }
+    div#qwerty {
+        top: 74%;
+        left: 18%;
+    }  
+    div#audionotify {
+        top: 60%;
+        left: 65%;
+    }  
+    div#hours240 {
+        top: 55%;
+        left: 17%;
+    }  
+    div#thin {
+        top: 13%;
+        left: 13%;
+    }    
+    .underline-inverse {
+        height: 5px;
+        border-top: 5px solid white;
+        margin: 4px 34% 26px 34%;
+        width: 28%;
+    }    
+  
+    img#spotxunique-img {
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left: -1%;
+        margin-right: 25%;
+        display: inline;
+    }    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    img#spotxunique-img {
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: auto;
+        margin-left: 14%;
+        margin-right: 25%;
+    } 
+    div#chipantenna {
+        top: 41px;
+        left: 484px;
+    }    
+    div#chipantenna-text {
+        position: relative;
+        top: -27px;
+        left: 55px;
+        width: 250px;
+    }
+    div#impactresistant-text {
+        left: 102px;
+        padding: 0 0 0 0;
+        clear: right;
+        width: 89px;
+        top: 70px;
+    }
+    img#impact-img {
+        position: relative;
+        left: 101px;
+        top: 12px;
+    }
+    div#rechargeable-image {
+        left: 20px;
+        position: relative;
+        padding: 30px 0 0 180px;
+    }    
+    div#rechargeable-text {
+        position: relative;
+        top: 5px;
+        left: 154px;
+    }    
+    div#audionotify-image {
+        position: relative;
+        left: 193px;
+        bottom: 66px;
+    }    
+    div#audionotify-text {
+        top: -58px;
+        left: 156px;
+        position: relative;
+    }    
+    div#hours360-image {
+        position: relative;
+        top: 225px;
+        left: 116px;
+        width: 220px;
+    }  
+    div#hours360-text {
+        position: relative;
+        top: 166px;
+        left: 149px;
+        width: 220px;
+    }    
+    div#usbport-text {
+        position: relative;
+        bottom: -8px;
+        right: 261px;
+        width: 150px;
+    }    
+    div#qwerty-image {
+        position: relative;
+        right: 171px;
+        top: 15px;
+    }
+    div#qwerty-text {
+        position: relative;
+        top: 19px;
+        left: -172px;
+    }
+    div#hours240-text {
+        position: relative;
+        top: -42px;
+        left: -177px;
+        width: 100px;
+    }
+    div#thin {
+        top: 28%;
+        left: 21%;
+    }    
+    div#thin-image {
+        position: relative;
+        left: -119px;
+        top: -31px;
+    }  
+    div#hours240 {
+        top: 55%;
+        left: 27%;
+    }    
+    div#thin-text {
+        position: relative;
+        top: -28px;
+        left: -148px;
+        width: 50px;
+    }
+    div#qwerty {
+        top: 74%;
+        left: 23%;
+    }    
+    div#backlitdisplay-text {
+        position: relative;
+        top: -15px;
+        left: -262px;
+        width: 120px;
+    }
+    #getspotx-header {
+        color: black;
+        position: relative;
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+    #getspotx-headercopy {
+        color: black;
+        position: relative;
+        text-align: center;
+    }    
+  
+    div#thin > svg {
+        position: absolute;
+        top: -31px;
+        left: -163px;
+    }
+    .underline-inverse {
+        height: 5px;
+        border-top: 5px solid white;
+        width: 26%;
+        margin: 13px 0 3% 36%;
+    }
+
+}
+
+@media only screen and (min-width : 991px) and (max-width : 1200px) {
+    
+
+    /*what makes spotx unique*/
+    .circle {
+        position: absolute;
+        background-color: white;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        z-index: 10;
+        -webkit-box-shadow: 0 0 5px 5px #FFA500; 
+        -moz-box-shadow: 0 0 5px 5px #FFA500; 
+        box-shadow: 0 0 5px 5px  #FFA500;  
+        cursor:pointer;
+    }
+    div#chipantenna-text {
+        position: relative;
+        top: -29px;
+        left: 13px;
+        width: 250px;
+    }
+    div#impactresistant-text {
+        position: relative;
+        top: 31px;
+        left: 329px;
+        width: 260px;
+    }
+    img#impact-img {
+        position: relative;
+        left: 98px;
+        top: 20px;
+    } 
+    div#rechargeable-image {
+        left: 20px;
+        position: relative;
+        padding: 30px 0 0 180px;
+    }    
+    div#rechargeable-text {
+        position: relative;
+        top: -41px;
+        left: 233px;
+        width: 182px;
+    }    
+    div#audionotify-image {
+        position: relative;
+        left: 193px;
+        bottom: 66px;
+    }    
+    div#audionotify-text {
+        top: -88px;
+        left: 231px;
+        position: relative;
+        width: 200px;
+    }    
+    div#hours360-image {
+        position: relative;
+        top: 225px;
+        left: 116px;
+        width: 220px;
+    }  
+    div#hours360-text {
+        position: relative;
+        top: 166px;
+        left: 149px;
+        width: 220px;
+    }    
+    div#usbport-text {
+        position: relative;
+        bottom: 42px;
+        right: 267px;
+        width: 150px;
+    }  
+    div#qwerty-image {
+        position: relative;
+        right: 171px;
+        top: 15px;
+    }
+    div#qwerty-text {
+        position: relative;
+        top: -11px;
+        left: -325px;
+        width: 200px;
+    }
+    div#hours240-text {
+        position: relative;
+        top: -44px;
+        left: -245px;
+        width: 150px;
+    }    
+    div#thin-image {
+        position: relative;
+        left: -119px;
+        top: -31px;
+    }    
+    div#thin-text {
+        position: relative;
+        top: -70px;
+        left: -206px;
+        width: 50px;        
+    }    
+    div#backlitdisplay-text {
+        position: relative;
+        top: -25px;
+        left: -282px;
+        width: 120px;
+    }
+    div#audionotify {
+        top: 61%;
+        left: 63%;
+    } 
+    div#usbport > svg {
+        bottom: -3px;
+        left: -180px;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:1201px) {
+    .underline-inverse {
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 5px solid white;
+        margin: 8px 0 3% 43%;
+        width: 14%;
+    }
+    div#chipantenna-text {
+        position: relative;
+        top: -29px;
+        left: 13px;
+        width: 250px;
+    }
+    div#impactresistant-text {
+        position: relative;
+        top: 41px;
+        left: 306px;
+        width: 260px;
+    }  
+    img#impact-img {
+        position: relative;
+        left: 98px;
+        top: 20px;
+    } 
+    div#rechargeable-image {
+        left: 20px;
+        position: relative;
+        padding: 30px 0 0 180px;
+    }    
+    div#rechargeable-text {
+        position: relative;
+        top: -41px;
+        left: 233px;
+        width: 182px;
+    }    
+    div#audionotify-image {
+        position: relative;
+        left: 193px;
+        bottom: 66px;
+    }    
+    div#audionotify-text {
+        top: -88px;
+        left: 231px;
+        position: relative;
+        width: 200px;
+    }    
+    div#hours360-image {
+        position: relative;
+        top: 225px;
+        left: 116px;
+    }  
+    div#hours360-text {
+        position: relative;
+        top: 166px;
+        left: 149px;
+        width: 220px;
+    }    
+    div#usbport-text {
+        position: relative;
+        bottom: -8px;
+        right: 261px;
+        width: 150px;
+    }    
+    div#qwerty-image {
+        position: relative;
+        right: 171px;
+        top: 15px;
+    }
+    div#qwerty-text {
+        position: relative;
+        top: -11px;
+        left: -325px;
+        width: 200px;
+    }
+    div#hours240-text {
+        position: relative;
+        top: -44px;
+        left: -245px;
+        width: 150px;
+    }    
+    div#thin-image {
+        position: relative;
+        left: -119px;
+        top: -31px;
+    }    
+    div#thin-text {
+        position: relative;
+        top: -70px;
+        left: -206px;
+        width: 50px;        
+    }    
+    div#backlitdisplay-text {
+        position: relative;
+        top: -25px;
+        left: -282px;
+        width: 120px;
+    }
+    
+}

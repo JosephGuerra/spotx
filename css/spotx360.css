@@ -1,0 +1,112 @@
+
+/* 
+    Created on : Dec 21, 2016, 9:02:44 AM
+    Author     : JGuerra
+*/
+.spotx360 {
+    padding: 0 2% 0 20%;
+}
+.text360 > h6 {
+    font-size: 8px;
+}
+.price-var {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFA500;
+}
+.price-msrp {
+    font-weight: bold;
+}
+
+@media only screen and (max-width : 520px) {
+    
+    .spotx360 {
+        padding: 0 2% 0 20%;
+    }
+    .text360 > h6 {
+        font-size: 12px;
+    }
+    .text360 {
+        text-align: center;
+    }
+    .price-var.third360 {
+        font-size: 6em;
+        font-weight: bold;
+        color: #FFA500;
+        text-align: center;
+        line-height: .85;
+        padding: 10px 0 0 0;        
+    }
+    .price-var-txt {
+        font-size: 2em;
+        color: #FFA500;
+        text-align: center;
+    }   
+    .price-msrp {
+        font-size: 21px;
+        text-align: center;
+        padding-bottom: 15%;        
+    }
+    .price-msrp-txt {
+        font-size: 12px;
+        text-align: center;
+    }
+    .imgDiv {
+        width: 250px;
+        margin: 0 25px auto;
+    }
+    #image360 {
+        margin: 0 0 0 0;
+        width: 250px;
+    }
+}
+
+
+@media only screen and (min-width : 521px) {
+    
+    h4#first360 {
+        text-align:left;
+        padding-bottom: 2%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #second360 {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .text360 > h6 {
+        text-align:left;
+        font-size: 12px;
+    }
+    .price-var {
+        font-size: 5em;
+        font-weight: 500;
+        color: #FFA500;
+    }
+    .price-var-txt {
+        font-size: 2.0em;
+        font-weight: 400;
+        color: #FFA500;
+        line-height: .5;
+    }
+    .price-msrp {
+        font-weight: 500;
+        font-size: 21px;
+    }
+    .price-msrp-txt {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .imgDiv {
+        width: 300px;
+        margin: 0 25px auto;
+    }
+    #image360 {
+        display: block;
+        width: 300px;
+        margin: 0 0 0 20%;
+    }
+}
+
+

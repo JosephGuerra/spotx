@@ -1,0 +1,28 @@
+
+/* 
+    Created on : Jan 20, 2017, 1:52:13 PM
+    Author     : JGuerra
+*/
+
+.black-underline-howtogetspotx {
+    height: 5px;
+    border-top: 5px solid black;
+    width: 161px;
+    margin: 10px 0 2% 44.5%;
+}
+
+.row.adventure {
+    padding-bottom: 16px;
+}
+label#name-error {
+    color: #dd0e0e;
+}
+
+@media only screen and (max-width: 520px) {
+    .black-underline-howtogetspotx {
+        height: 5px;
+        border-top: 5px solid black;
+        width: 161px;
+        margin: 0 0 3% 38%;
+    }
+}
