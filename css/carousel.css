@@ -4,6 +4,10 @@
 */
 
 /***CAROUSEL***/
+#main-carousel {
+  margin-top: 15px;
+  padding: 0;
+}
 .carousel-inner img {
     margin: auto;
 }

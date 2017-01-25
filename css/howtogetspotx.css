@@ -1,28 +1,72 @@
-
 /* 
     Created on : Jan 20, 2017, 1:52:13 PM
     Author     : JGuerra
 */
+#howtogetspotx { /* section */
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background: #FFA500;
+	font-size:12px;
+	color: black;
+}
+#howtogetspotx h2,
+#howtogetspotx h4 {
+	text-align:center;
+}
+#howtogetspotx h2 {
+	font-family: "Oswald";
+  font-weight: 400;	
+}
+#howtogetspotx h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; 
+}
+#howtogetspotx hr {
+	border-top: 5px solid black;
+}
+
 
 .black-underline-howtogetspotx {
-    height: 5px;
-    border-top: 5px solid black;
-    width: 161px;
-    margin: 10px 0 2% 44.5%;
+	left: 50%;
+  height: 5px;
+  width: 161px;
+  margin: 15px auto 25px;
+}
+#contactus_form {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#contactus_form label {
+	line-height:0;
+	
+  font-size:12px;
+}
+#contactus_form input,
+#contactus_form select {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+#terms {
+	margin-bottom: 10px;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 12px;
+}
+#error_msg_info_form {
+	color: red;
+}
+#submit /* use class .btn.btn-primary */{
+	display: block;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+  color:white;
+  background-color: black;
+  border-radius: 0;
 }
 
-.row.adventure {
-    padding-bottom: 16px;
-}
-label#name-error {
-    color: #dd0e0e;
-}
-
-@media only screen and (max-width: 520px) {
-    .black-underline-howtogetspotx {
-        height: 5px;
-        border-top: 5px solid black;
-        width: 161px;
-        margin: 0 0 3% 38%;
-    }
-}

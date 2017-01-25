@@ -3,19 +3,9 @@
     Author     : JGuerra
 */
 
-hr.whyspotx-underline {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 5px solid #FFA500;
-    padding: 0;
-    text-align: center;
-    width: 35%;
-    margin: 0 0 26px 31%;
-}  
-#whyspotX-header {
+/*#whyspotX-header {
     position: fixed;
-}
+}*/
 #whyspotximage {
     z-index: 1;
     padding-left: 40%;  
@@ -34,18 +24,10 @@ dd {
     width: 400px;
     font-size: 1.0em;
 }
-.whyspotx-header-headercopy {
-    margin: 0 5% 7% 5%;
-} 
- 
 
 
  @media only screen and (max-width:519px) {
      
-     hr.whyspotx-underline {
-         width: 48%;
-        margin: 14px 0 26px 25%;
-     }
     dd {
         width: 80%;
         margin: 0 0 10px 7%;
@@ -54,21 +36,12 @@ dd {
     .block > dt {
         padding-left: 0;
     }
-    .whyspotx-header-headercopy {
-        margin: 0 9% 7% 7%;
-        font-size: 15px;
-    }
     #whyspotximage {
         display:none;
     }    
 }
 @media only screen and (min-width : 520px) and (max-width : 767px) {
     
-    
-    hr.whyspotx-underline {
-        width: 28%;
-        margin: 15px 0 26px 35%;
-    }
     img#spotxunique-img {
         position: relative;
         margin: 2% 0% 0 6%;
@@ -92,33 +65,9 @@ dd {
 
 @media only screen and (min-width : 768px) and (max-width : 990px) {
 
-    .whyspotx-header-headercopy {
-        margin: 0 0px 3% 0;
-        padding: 0 16%;
-    }  
     div#servicecoverage-header {
         padding: 0 0 3px 0;
     }    
-    hr.whyspotx-underline {
-        display: block;
-        height: 5px;
-        border: 0;
-        border-top: 5px solid #FFA500;
-        text-align: center;
-        width: 19%;
-        margin-left: 40%;
-        padding: 0 0 3px 0;
-    }    
-    hr {
-        display: block;
-        height: 5px;
-        border: 0;
-        border-top: 5px solid #FFA500;
-        margin: 10px 0 24px 0;
-        text-align: center;
-        width: 24%;
-        margin-left: 37%;
-    }
     #whyspotximage {
             z-index: 1;
             padding-left: 40%;
@@ -141,12 +90,7 @@ dd {
         text-align: left;        
     }    
 }
-@media only screen and (min-width: 991px) and (max-width:1200px) {
-    hr.whyspotx-underline {
-        width: 13%;
-        margin: 19px 0 3% 43%;
-    }
-}
+
 @media only screen and (min-width: 1201px) {
     
     dd {
@@ -164,25 +108,6 @@ dd {
         right: 38%;
     }    
 
-    h5.text-center.whyspotx-header-headercopy {
-        margin: 2% 0 3% 0;
-    }   
-    .whyspotX-header {
-        margin-bottom: 1%;
-    }
-    hr.whyspotx-underline {
-        width: 13%;
-        margin: 19px 0 3% 43%;
-    }
-    
 }
-@media only screen and (min-width: 1501px) {
-    hr.whyspotx-underline {
-        width: 10%;
-        margin: 19px 0 3% 45%;
-    }
-    .whyspotx-header-headercopy {
-        margin: 0 5% 3% 5%;
-    }    
-}
+
 

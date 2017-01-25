@@ -1,8 +1,38 @@
+.ring {
+    position: absolute;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    z-index: 9;
+    cursor: pointer;
+    display: inline;
+}
+
+.circle2 {
+    margin: 3px auto;
+    background-color: #fff; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    z-index: 10;
+    -webkit-box-shadow: 0 0 15px 5px #FFA500;
+    -moz-box-shadow: 0 0 15px 5px #FFA500;
+    box-shadow: 0 0 15px 5px #FFA500;
+    cursor: pointer;
+}
+
 /* 
     Created on : Dec 14, 2016, 2:48:10 PM
     Author     : JGuerra
 */
 section#spotxunique {
+	margin: 0 auto;
     width:90%;    
 }
 .underline-inverse {
@@ -39,25 +69,25 @@ img#spotxunique-img {
 }
 
 .circle {
-    position: absolute;
-    background-color: white;
+
+    margin: 3px auto;
+    background-color: #fff; 
     width: 12px;
     height: 12px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     z-index: 10;
-    -webkit-box-shadow: 0 0 5px 5px #FFA500; 
-    -moz-box-shadow: 0 0 5px 5px #FFA500; 
-    box-shadow: 0 0 5px 5px  #FFA500;  
-    cursor:pointer;
-    display:inline;
+    -webkit-box-shadow: 0 0 15px 5px #FFA500;
+    -moz-box-shadow: 0 0 15px 5px #FFA500;
+    box-shadow: 0 0 15px 5px #FFA500;
+    cursor: pointer;
 }
 div#chipantenna {
     top: 5vh;
     left: 88vh;
 }
-div#chipantenna > svg {
+div#chipantenna > div > svg {
     position: absolute;
     left: 50%;
     bottom: -188%;
@@ -78,7 +108,7 @@ div#impactresistant {
     top: 18%;
     left: 69%;
 }
-div#impactresistant > svg {
+div#impactresistant > div > svg {
     position:absolute;
     top: -133%;
     left: 69%;
@@ -99,7 +129,7 @@ div#rechargeable {
     top: 28%;
     left: 60%;
 }
-div#rechargeable > svg {
+div#rechargeable > div > svg {
     position:absolute;
     top: 28%;
     left: 60%;
@@ -117,7 +147,7 @@ div#hours360 {
     top: 53%;
     left: 51%;
 }
-div#hours360 > svg {
+div#hours360 > div > svg {
     position:absolute;
     top: -8px;
     left: -8px;
@@ -145,7 +175,7 @@ div#usbport {
     top: 96%;
     left: 41%;
 }
-div#usbport > svg {
+div#usbport > div > svg {
     bottom: -38px;
     left: -180px;
     position: absolute;
@@ -160,7 +190,7 @@ div#qwerty {
     top: 71%;
     left: 33%;
 }
-div#qwerty > svg {
+div#qwerty > div > svg {
     position: absolute;
     bottom: -40px;
     left: -180px;
@@ -174,7 +204,7 @@ div#hours240 {
     top: 55%;
     left: 31%;
 }
-div#hours240 > svg{
+div#hours240 > div > svg{
     position: absolute;
     bottom: -11px;
     left: -171px;
@@ -188,7 +218,7 @@ div#thin {
     top: 28%;
     left: 29%;
 }
-div#thin > svg {
+div#thin > div > svg {
     position:absolute;
     top: -29px;
     left: -163px;
@@ -203,7 +233,7 @@ div#backlitdisplay {
     top: 18%;
     left: 33%;
 }
-div#backlitdisplay > svg {
+div#backlitdisplay > div > svg {
     position:absolute;
     top: -27px;
     left: -177px;
@@ -362,7 +392,7 @@ div#backlitdisplay-text {
         top: 36%;
         left: 78%;
     }  
-    div#hours360 > svg {
+    div#hours360 > div > svg {
         position: absolute;
         top: -41%;
         left: -54%;
@@ -516,19 +546,7 @@ div#backlitdisplay-text {
         top: -15px;
         left: -262px;
         width: 120px;
-    }
-    #getspotx-header {
-        color: black;
-        position: relative;
-        text-align: center;
-        padding: 0 0 0 0;
-    }
-    #getspotx-headercopy {
-        color: black;
-        position: relative;
-        text-align: center;
     }    
-  
     div#thin > svg {
         position: absolute;
         top: -31px;
@@ -656,7 +674,7 @@ div#backlitdisplay-text {
         top: 61%;
         left: 63%;
     } 
-    div#usbport > svg {
+    div#usbport > div > svg {
         bottom: -3px;
         left: -180px;
         position: relative;
@@ -674,8 +692,8 @@ div#backlitdisplay-text {
     }
     div#chipantenna-text {
         position: relative;
-        top: -29px;
-        left: 13px;
+        top: -33px;
+        left: -1px;
         width: 250px;
     }
     div#impactresistant-text {
