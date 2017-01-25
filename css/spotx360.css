@@ -3,6 +3,15 @@
     Created on : Dec 21, 2016, 9:02:44 AM
     Author     : JGuerra
 */
+#spotx360 {
+    padding: 80px 0 0 0;
+}
+@media only screen and (max-width:520px) {
+    #spotx360 {
+        padding: 0 0 0 0; 
+    }
+}
+
 .spotx360 {
     padding: 0 2% 0 20%;
 }

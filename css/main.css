@@ -6,15 +6,17 @@
 @-ms-viewport{
   width: device-width;
 }
-
 a {
-    color: #337ab7;
-    text-decoration: none;
+  color: #337ab7;
+  text-decoration: none;
+}
+html,body{
+	max-width: 100%;
+	overflow-x: hidden;
 }
 body {
-    font-size:100%;
-    overflow-x: hidden;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
 }
 .oswald {
     font-family: "Oswald";
@@ -22,38 +24,25 @@ body {
 .opensans {
     font-family: "Open Sans";
 }
-body {
-    padding-top: 70px;
-}
 .orangebg {
   background-color: #FFA500 ;
 }
-section#spotx360 {
-    padding: 80px 0 0 0;
-}
 
-@media only screen and (max-width:520px) {
-    section#spotx360 {
-        padding: 0 0 0 0; 
-    }
-}
-
-section#inthenews {
+/*SECTIONS*/
+#inthenews {
     padding: 75px 0;
 }
-section#whyspotx {
+#whyspotx {
     padding: 50px 0;
 }
- hr {
+hr {
     display: block;
     height: 5px;
-    border: 0;
     border-top: 5px solid #FFA500;
-    margin: 1em 0;
+    margin: 15px 0 21px 0;
     padding: 0;
-    text-align: center;
-    width: 12%;
-    margin-left: 44%;
+    width: 9%;
+    margin-left: 45.5%;
 }
 .strong{
     font-weight: bold;
@@ -79,6 +68,14 @@ div#servicecontainer {
     width: 50px;
     color: black;
     
+}
+label.label {
+    font-size:12px;
+    color: black;
+}
+
+label#name-error {
+    color: #dd0e0e;
 }
 #coveragemap-img {
     height: 70%;
@@ -131,23 +128,8 @@ span#moreinfo {
   .footer-bg {
      background-color:black;
  }
-#getspotx-header {
-    color: black;
-    position: relative;
-    text-align:center;
-}
-#getspotx-headercopy {
-    color: black;
-    position: relative;
-}
-.formContents {
-    position: relative;
-    padding: 10px 10% 20px 10%;
-}
-label.label {
-    font-size:12px;
-    color: black;
-}
+
+
 div.socialIcons > a {
     color: white;
 }
@@ -156,9 +138,10 @@ div.socialIcons > a {
     font-size: 1em;
     text-align: center;
 }
-.btn_contact_me {
+.btn.btn-primary {
     color:white;
     background-color: black;
+    border-radius: 0;
 }
 .block {
     display:block;

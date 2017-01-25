@@ -200,16 +200,6 @@ div.support-included {
         margin-left: 6%;
         width: 88.5%;
     }   
-    hr#black-underline-howtogetspotx {
-        display: block;
-        height: 5px;
-        border: 0;
-        border-top: 5px solid #000;
-        margin: 1em 0;
-        text-align: center;
-        width: 24%;
-        margin-left: 37%;
-    }
     .support-included-item.support-datacable {
         position: relative;
         top: -115px;

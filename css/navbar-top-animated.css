@@ -2,70 +2,66 @@
     Created on : Dec 6, 2016, 4:14:12 PM
     Author     : JGuerra
 */
-
-
-.navbar-nav>li>a {
-        font-family: "Open Sans";
-        font-size: 10px;
+.navbar-custom {
+	padding: 10px 0;
+  background: rgba(255,255,255,0.8);
+  -webkit-transition: padding 0.4s ease;
+  -moz-transition: padding 0.4s ease;
+  transition: padding 0.4s ease;
 }
-nav.navbar {
- line-height: 50px;
- background-color: #FFFFFF;
- opacity: 0.9;
- width: 100%;
-    /* Animation */
- -webkit-transition: all 0.4s ease;
- transition: all 0.4s ease;
+.navbar-custom.affix {
+	padding: 0;
 }
-.nav.navbar-nav.navbar-right li a {
-    color: #000;
-    :hover {
-        font-weight: bold ;
-        background-color: #FFFFFF;
-    } 
-    ::after {
-        display:block;
-        content:attr(data-content);
-        font-weight:bold;
-        height:1px;
-        color:transparent;
-        overflow:hidden;
-        visibility:hidden;
-        margin-bottom:-1px;
-    }  
-  
+.navbar-custom i {
+  color: grey;
+  background-color:black;	
 }
-.gradient {
-    background: #FFFFFF;
-    /* IE9, iOS 3.2+ */
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjRkZGIiBzdG9wLW9wYWNpdHk9IjAiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNGRkYiIHN0b3Atb3BhY2l0eT0iMC43NSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkZGIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-} 
-#main-navigation a:hover {
-   font-weight: bold;
- } 
- #main-navigation a:active {
-   font-weight: bold !important;
- }
- #main-navigation .active-link a  { font-weight: bold !important; }
-.navbar-toggle .icon-bar {
-    color: grey;
-    background-color:black;
-} 
-.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #FFFFFF;
-    color: #FFC0CB;
+.navbar-custom .navbar-brand {
+  margin-top: 5px;
+  padding: 0;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  transition: all 500ms;
 }
-@media (min-width: 1024px) {
-    .navbar-brand {
-       position: absolute;
-       width: 100%;
-       left: 0;
-       top: 0;
-       text-align: center;
-       margin: auto;
-       z-index: 20;
-    }
-  
+.navbar-custom.affix .navbar-brand {
+  margin-top: 2.5px;
+  margin-right: 0;
+  padding: 7.5px;
+}
+.navbar-custom .navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+.navbar-custom .navbar-nav > li > a {
+	margin: 0;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 12px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  transition: all 500ms;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  font-weight: 600;
+  background-color: #FFFFFF;	
+}
+.navbar-custom .navbar-nav > li > a:after {
+  display:block;
+  content:attr(data-content);
+  font-weight: 600;
+  height:1px;
+  color:transparent;
+  overflow:hidden;
+  visibility:hidden;
+  margin-bottom:-1px;	
+}
+.navbar-custom.affix .navbar-nav > li > a:after {
+  font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+  font-weight: 600;
 }
 /***NAVBAR***/
 @media (max-width: 1024px) {
